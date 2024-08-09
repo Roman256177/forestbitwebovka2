@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    overflow-x:hidden;
+    
+}
+
+
+/* navigace*/
+.nav{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.logo{
+    width: 160px;
+    
+}
+
+.navul{
+    display: flex;
+    
+    
+}
+
+.navul li{
+ color: black;  
+ padding: 10px;
+ text-decoration: none;
+ list-style: none;
+ font-weight: 600;
+ font-size: 18px;
+ 
+}
+
+.navul li:hover{
+    color: rgba(0, 128, 0, 0.85);
+    transition: 0.2s;
+    
+   }
+
+/*moto*/
+
+
+.moto{
+padding: 100px 0 100px 0;
+
+}
+
+.moto div{
+    margin-left: 20%;
+    
+    }
+
+.moto h1{
+    font-size: 55px;
+    color: black;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.moto h1 span{
+    color: rgba(0, 128, 0, 0.85);
+}
+
+.moto h2{
+    font-size: 22px;
+    color: rgba(128, 128, 128, 0.85);
+    margin-top: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/*obrazky*/
+
+
+.obrazky{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    position: relative;
+    left: -1580px;
+    transition: left 0.5s ease;
+    padding-bottom: 200px;
+    padding-top: 50px;
+}
+
+.obrazky img{
+    width: 700px;
+    border-radius: 20px;
+    
+    
+}
+
+
+.scriptbutton{
+    width: 65px;
+    height: 65px;
+    background-color: rgba(0, 128, 0);
+    border-radius: 100%;
+    border: none;
+    margin: 40px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.scriptbutton:hover{
+    background-color: rgba(128, 0, 128, 0.76);
+}
+
+.divforbuttonsobrazky{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 175px;
+    
+   
+}
+
+
+
+/*wantabit*/
+
+
+.wantabit{
+    padding: 200px 0 150px 0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wantabit h3{
+   
+    font-size: 40px;
+    
+   
+}
+
+.wantabit div{
+   
+    display: flex;
+    
+   
+}
+.wantabit .buttn1{
+    width: 200px;
+    height: 55px;
+    margin-top: 25px;
+    background-color: rgba(128, 0, 128, 0.9);
+    border: none;
+    border-radius: 25px 0 0  25px;
+    margin-right: 2px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.wantabit .buttn2{
+    width: 200px;
+    height: 55px;
+    margin-top: 25px;
+    background-color: rgba(128, 0, 128, 0.9);
+    border: none;
+    border-radius: 0 25px 25px 0;
+    margin-left: 2px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.wantabit .buttn1:hover{
+    
+    background-color: rgba(128, 0, 128, 0.76);
+    color: rgba(255, 255, 255, 0.76);
+
+}
+
+.wantabit .buttn2:hover{
+    background-color: rgba(128, 0, 128, 0.76);
+    color: rgba(255, 255, 255, 0.76);
+}
+
+
+/*footer*/
+
+
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.upperdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding: 50px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.6);
+}
+
+.upperdiv div{
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.upperdiv div p{
+    margin-left: 12px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.85);
+
+}
+.upperdiv img{
+    width: 140px;
+}
+
+
+.lowerdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding: 50px;
+}
+
+.lowerdiv div div{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(128, 0, 128, 0.9);
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.lowerdiv p{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgba(0, 128, 0, 0.85);
+
+}
+
+.odkazynasocial{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.odkazynasocial div:hover{
+    background-color: rgba(128, 0, 128, 0.76);
+}
+
+
+
+.instagram{
+    width: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Timelineheader{
+    justify-content: center;
+    display: flex;
+    font-size: xx-large;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.Timeline1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.TimelineObrazek1{
+    width: 100%;
+    
+}
+
+.Timeline1text{
+    font-size: xx-large;
+}
+
+.Timeline1div{
+    padding: 30px;
+    margin-left: 340px;
+    margin-top: 120px;
+}
+
+.Timeline1textmain{
+    font-family: Arial;
+    font-weight: 100;
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+.colorgreen{
+    color: green;
+}
+
+.colorpurple{
+    color: purple;
+}
+
+.TimelineObrazek2{
+    width: 50%;
+}
+
+.Timeline2text{
+    font-size: xx-large;
+}
+
+.Timeline2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Timeline2div{
+    margin-right: 280px;
+    margin-bottom: 60px;
+    padding: 40px;
+}
+.TimelineObrazek3{
+    width: 50%;
+}
+
+.Timeline3text{
+    font-size: xx-large;
+    margin-left: 360px;
+    padding: 40px;
+}
+
+.Timeline3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Timeline3textmain{
+    font-family: Arial;
+    font-weight: 100;
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+.TimelineObrazek4{
+    width: 50%;
+}
+
+.Timeline4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Timeline4text{
+    font-size: xx-large;
+    margin-right: 280px;
+    margin-bottom: 60px;
+    padding: 40px;
+}
+
+.Timeline4textmain{
+    font-family: Arial;
+    font-weight: 100;
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+
+
+.Timeline5textmain{
+    font-family: Arial;
+    font-weight: 100;
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+.Timeline5{
+    display: flex;
+}
+
+.TimelineObrazek5{
+    width: 50%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.Timeline5text{
+    font-size: xx-large;
+    padding: 0px;
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0;
+    padding-left: 0px;
+}
